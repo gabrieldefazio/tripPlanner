@@ -8,7 +8,7 @@ body {
     background-color: #C1B5AD;
 }
 
-container {
+#container {
     width: 90vw;
     height: 90vh;
     margin: auto;
@@ -22,13 +22,24 @@ container {
 }
 
 #map {
-    height: 100vh;
-    width: 100vw;
+    grid-area: map;
+    /* height: 100vh;
+    width: 100vw; */
   }
 
 nav {
     grid-area: nav;
 }
+
+#selections {
+    grid-area: selections;
+}
+
+#itinerary {
+    grid-area: itinerary;
+}
+
+
 
 
 
