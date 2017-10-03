@@ -8,7 +8,27 @@ body {
     background-color: #C1B5AD;
 }
 
+container {
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    "nav nav"
+    "map selections"
+    "map itinerary";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 17fr;
+}
+
 #map {
     height: 100vh;
     width: 100vw;
   }
+
+nav {
+    grid-area: nav;
+}
+
+
+
